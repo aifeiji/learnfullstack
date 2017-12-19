@@ -1,0 +1,22 @@
+{
+  "name": "learnfullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aifeiji/learnfullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aifeiji/learnfullstack/issues"
+  },
+  "homepage": "https://github.com/aifeiji/learnfullstack#readme",
+  "dependencies": {
+    "color": "^2.0.1"
+  }
+}
