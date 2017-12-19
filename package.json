@@ -1,10 +1,10 @@
 {
   "name": "learnfullstack",
   "version": "1.0.0",
-  "description": "",
+  "description": "learn according https://github.com/verekia/js-stack-walkthrough",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "babel-node src"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
     "url": "https://github.com/aifeiji/learnfullstack/issues"
   },
   "homepage": "https://github.com/aifeiji/learnfullstack#readme",
-  "dependencies": {
-    "color": "^2.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
