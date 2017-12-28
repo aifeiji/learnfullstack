@@ -1,0 +1,32 @@
+{
+    "extends" : [
+        "airbnb",
+        "plugin:flowtype/recommended"
+    ],
+    "plugins": [
+        "flowtype",
+        "compat"
+    ],
+    "env": {
+        "jest": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "linebreak-style": [2, "windows"],
+        "semi": [2, "never"],
+        "no-unexpected-multiline": 2,
+        "compat/compat": 2,
+        // enforce consistent indentation with 4 space
+        "indent": ["error", 4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        // recommend at least one newline at the end of files
+        "eol-last": "warn",
+        //enforce consistent spacing before and after keywords
+        "keyword-spacing": ["error", {
+            "after": true
+        }]
+    }
+}
